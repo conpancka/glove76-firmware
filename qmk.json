@@ -1,0 +1,41 @@
+{
+    "userspace_version": "1.1",
+    "build_targets": [
+        [
+            "cosmos/glove76",
+            "default",
+            {
+                "MAKECMDGOALS": "uf2-split-left",
+                "VIK_BUILD_LEFT": "yes",
+                "TARGET": "glove76_default_left"
+            }
+        ],
+        [
+            "cosmos/glove76",
+            "default",
+            {
+                "MAKECMDGOALS": "uf2-split-right",
+                "VIK_BUILD_RIGHT": "yes",
+                "TARGET": "glove76_default_right"
+            }
+        ],
+        [
+            "cosmos/glove76",
+            "via",
+            {
+                "MAKECMDGOALS": "uf2-split-left",
+                "VIK_BUILD_LEFT": "yes",
+                "TARGET": "glove76_via_left"
+            }
+        ],
+        [
+            "cosmos/glove76",
+            "via",
+            {
+                "MAKECMDGOALS": "uf2-split-right",
+                "VIK_BUILD_RIGHT": "yes",
+                "TARGET": "glove76_via_right"
+            }
+        ]
+    ]
+}

@@ -53,11 +53,11 @@
             "animation": "rainbow_mood",
             "val": 50
         },
-        "led_count": 98,
+        "led_count": 76,
         "split": true,
         "split_count": [
-            49,
-            49
+            38,
+            38
         ]
     },
     "bootmagic": {

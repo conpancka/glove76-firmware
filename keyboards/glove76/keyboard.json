@@ -63,7 +63,7 @@
     "bootmagic": {
         "matrix": [
             0,
-            0
+            5
         ]
     },
     "split": {
@@ -71,7 +71,7 @@
         "bootmagic": {
             "matrix": [
                 7,
-                0
+                5
             ]
         },
         "serial": {

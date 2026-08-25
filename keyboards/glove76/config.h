@@ -26,4 +26,9 @@
 #define SERIAL_USART_TX_PIN GP0
 #define SERIAL_USART_RX_PIN GP1
 
+// ===== ADD THESE TWO LINES =====
+#define LED_POWER_PIN GP11
+#define LED_POWER_PIN_ON_STATE 0
+// ===============================
+
 #include "keyboards/cosmos/glove76/vik/config.vik.post.h"

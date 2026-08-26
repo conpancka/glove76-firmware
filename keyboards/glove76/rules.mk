@@ -3,4 +3,8 @@
 VIK_ENABLE = yes
 BOOTMAGIC_ENABLE = yes
 
+RGB_MATRIX_SUPPORTED = yes
+RGBLIGHT_SUPPORTED = yes
+RGB_MATRIX_ENABLE = yes
+
 include $(KEYBOARD_PATH_1)/vik/rules.mk
